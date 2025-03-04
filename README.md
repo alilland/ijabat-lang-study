@@ -70,3 +70,5 @@ The following will create the local SQLite database, then run a migration adding
 ```bash
 make initialize
 ```
+
+

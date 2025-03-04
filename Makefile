@@ -1,7 +1,9 @@
 reset:
-	bundle exec rake db:full_reset
+	bundle exec rake core:reset
 initialize:
-	bundle exec rake db:setup
+	bundle exec rake core:init
 	bundle exec rake db:migrate
 populate:
-	bundle exec rake
+	bundle exec rake populate:languages
+	bundle exec rake populate:categories
+	bundle exec rake populate:terms
