@@ -1,5 +1,9 @@
 # ijabat-lang-study
 
+The following project builds a SQLite database of Basic Christian teaching search terms, pulling from a curated list of languages compiled from the [2025 World Watch List](https://www.opendoorsus.org/en-US/persecution/countries) from Open Doors USA, a database ranking nations where Christians face the most extreme persecution.
+
+---
+
 project was built using ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-darwin23]
 
 You will need the following third party dependencies:
@@ -14,7 +18,9 @@ You will need the following third party dependencies:
 $ bundle install
 ```
 
-# initialize Dotenv File
+# initialize an empty dotenv file
+Feel free to implement this a different way if you are using something like docker, or if you prefer managing your environment variables in a safer way, `.env.development` is found in the `.gitignore`
+
 ```bash
 $ touch .env.development
 ```
@@ -53,4 +59,14 @@ You will need to enable and generate API credentials to access the Custom Search
 in your `.env.development` file, add the following environment variable
 ```
 GOOGLE_API_KEY=<your_api_key_value>
+```
+
+---
+
+# Build the Database
+
+The following will create the local SQLite database, then run a migration adding the database models (tables)
+
+```bash
+make initialize
 ```
