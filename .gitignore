@@ -1,0 +1,9 @@
+##
+# environment variable
+#
+.env.development
+
+##
+# SQLite DB
+#
+db/development.*
