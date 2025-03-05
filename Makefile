@@ -9,5 +9,6 @@ populate:
 	bundle exec rake populate:languages
 	bundle exec rake populate:categories
 	bundle exec rake populate:terms
+	bundle exec rake populate:translate_terms
 fill_webdata:
-	bundle exec rake google:query
+	bundle exec rake populate:google_terms

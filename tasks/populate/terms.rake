@@ -19,19 +19,17 @@ namespace :populate do
 
       data['terms'].each do |t|
         languages.to_a.each do |lang|
-          translation = GPT.translate(t['term'], lang.lang, lang.hl, lang.lr)
-
           record = Term.find_or_initialize_by(
             category_id: category.id,
             term: t['term'],
             language: lang.lang,
-            search_term: translation
+            search_term: ''
           )
           record.assign_attributes(
             id: record.id || SecureRandom.uuid,
             term: t['term'],
             language: lang.lang,
-            search_term: translation
+            search_term: ''
           )
 
           record.save!
