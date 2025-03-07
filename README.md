@@ -16,8 +16,9 @@ You will need the following third party dependencies:
 
 (I think the study cost me less than $5 to assemble and pay Google and OpenAI, I wasn't keeping track, but know that it does cost money to run)
 
----
+Just an FYI - Because I have use many programming languages across many projects, it is useful to me to make one command line interface to manage all scripts, I use Makefile (the command `make`) for this purpose, no matter what language i'm programming in, all I need to remember is Makefile is where I assemble my CLI commands.
 
+---
 
 # Installation Dependencies
 ```bash
@@ -89,11 +90,6 @@ OPENAI_API_KEY=<your_api_key_value>
 
 ---
 
-## After getting the environment requirements setup, run the following scripts
-
-Because I have use many programming languages across many projects, it is useful to me to make one command line interface to manage all scripts, I use Makefile for this purpose, no matter what language i'm programming in all I need to remember is Makefile is where I assemble my scripts.
-
-
 # Step 1) Build the Database
 
 The following will
@@ -104,7 +100,7 @@ The following will
 - populate the supported terms (key words) from data/categories.yaml into the database and relate them to categories
 
 ```bash
-make initialize
+$ make initialize
 ```
 
 # Step 2) Translate the English search terms into 20+ languages
@@ -112,7 +108,7 @@ make initialize
 The following will iterate over each term in the database and obtain a translation of that phrase from OpenAI. It will take a while.
 
 ```bash
-make translate_terms
+$ make translate_terms
 ```
 
 # Step 3) Obtain search result data from Google
@@ -120,7 +116,7 @@ make translate_terms
 For each term, search google and store first page result domains in the database, with the total number of query results available from Google. It will give us a metric to use later.
 
 ```bash
-make fill_webdata
+$ make fill_webdata
 ```
 
 # Step 4) Enrich the data
@@ -128,7 +124,7 @@ make fill_webdata
 Using the search results, we want to determine if search results include known cults, and then we also want to iterate over all the google data and determine how easy or hard it would be to write content that would bubble up to the top of the search results (build a result score).
 
 ```bash
-make enrich_data
+$ make enrich_data
 ```
 
 # Troubleshooting
@@ -138,5 +134,5 @@ Because its SQLite, you can safely delete the file, no harm will be done, and st
 The following script deletes the database files in db/*, while leaving the migration scripts in tact so you can start over.
 
 ```bash
-make reset
+$ make reset
 ```
