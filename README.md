@@ -10,7 +10,7 @@ You will need the following third party dependencies:
 - Google Programmable Search Engine
 - Google Custom Search API enabled
 - OpenAI API Platform enabled
-- *Optional, you can download a SQLite GUID from [SQLite Browser](https://sqlitebrowser.org/) to open, view and interact with the SQL tables.
+- *Optional, you can download a SQLite GUI from [SQLite Browser](https://sqlitebrowser.org/) to open, view and interact with the SQL tables.
 
 [TODO] add a user interface, currently scripts just populate the database where you can retrieve data manually
 
@@ -129,7 +129,7 @@ $ make enrich_data
 
 # Step 5) Access the Data
 
-Right now, you can access the data directly in SQL (SQLite GUID from [SQLite Browser](https://sqlitebrowser.org/)). The `terms` table will display the number of results by language for each search term, it will include the different web domains that came back in the search results, and will tell you whether or not cults were found in the top 10 results for that search term.
+Right now, you can access the data directly in SQL (SQLite GUI from [SQLite Browser](https://sqlitebrowser.org/)). The `terms` table will display the number of results by language for each search term, it will include the different web domains that came back in the search results, and will tell you whether or not cults were found in the top 10 results for that search term.
 
 It will also tell you how easy or difficult it will be for an article to achieve a high SEO score if someone writes an article or translates an article into that language, with the given search term.
 
