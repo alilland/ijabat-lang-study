@@ -5,10 +5,14 @@ migrate:
 initialize:
 	bundle exec rake core:init
 	bundle exec rake db:migrate
-populate:
 	bundle exec rake populate:languages
 	bundle exec rake populate:categories
 	bundle exec rake populate:terms
+translate_terms:
 	bundle exec rake populate:translate_terms
 fill_webdata:
 	bundle exec rake populate:google_terms
+enrich_data:
+	bundle exec rake populate:terms_scan_for_cults
+	bundle exec rake populate:terms_score
+
