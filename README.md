@@ -127,6 +127,12 @@ Using the search results, we want to determine if search results include known c
 $ make enrich_data
 ```
 
+# Step 5) Access the Data
+
+Right now, you can access the data directly in SQL. The `terms` table will display the number of results by language for each search term, it will include the different web domains that came back in the search results, and will tell you whether or not cults were found in the top 10 results for that search term.
+
+It will also tell you how easy or difficult it will be for an article to achieve a high SEO score if someone writes an article or translates an article into that language, with the given search term.
+
 # Troubleshooting
 You can obliterate and delete the database by running the reset script
 Because its SQLite, you can safely delete the file, no harm will be done, and start over.
