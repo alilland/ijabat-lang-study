@@ -9,6 +9,7 @@ project was built using ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-darw
 You will need the following third party dependencies:
 - Google Programmable Search Engine
 - Google Custom Search API enabled
+- OpenAI API Platform enabled
 
 ---
 
@@ -26,7 +27,7 @@ $ touch .env.development
 ```
 
 # Programmable Search Engine Setup
-You will need to be able to make programatic queries to the Google Search Engine via API requests
+You will need to be able to make programmatic queries to the Google Search Engine via API requests
 
 - Go to [Google Programmable Search Engine](https://programmablesearchengine.google.com/about/).
 - Click Create a search engine.
@@ -59,6 +60,26 @@ You will need to enable and generate API credentials to access the Custom Search
 in your `.env.development` file, add the following environment variable
 ```
 GOOGLE_API_KEY=<your_api_key_value>
+```
+
+# OpenAI API Platform enabled
+You will need openAI API access in order to translate words into other languages. You will need to sign up, create an API key, and configure access to use the OpenAI API.
+
+- Sign Up and Access OpenAI API
+  - Go to the OpenAI Platform
+  - Click on "Sign Up" or "Log In" if you already have an account.
+  - Verify your email and phone number if prompted.
+- Create an API Key
+  - Navigate to API Keys.
+  - Click "Create API Key".
+  - Copy the API key and store it in your ENV. (For security reasons, you won’t be able to see it again.)
+- Enable Billing (Required for full access)
+  - Go to the Billing Page.
+  - Add a payment method or check available free credits.
+
+in your `.env.development` file, add the following environment variable
+```
+OPENAI_API_KEY=<your_api_key_value>
 ```
 
 ---
