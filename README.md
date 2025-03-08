@@ -121,7 +121,10 @@ $ make fill_webdata
 
 # Step 4) Enrich the data
 
-Using the search results, we want to determine if search results include known cults, and then we also want to iterate over all the google data and determine how easy or hard it would be to write content that would bubble up to the top of the search results (build a result score).
+Using the search results
+- determine if search results include known cults
+- iterate over all the google data and determine how easy or hard it would be to write content that would bubble up to the top of the search results (build a result score)
+- look at all the domains by count to see what domains are seen the most across the board
 
 ```bash
 $ make enrich_data
