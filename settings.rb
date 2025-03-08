@@ -4,6 +4,7 @@ require 'active_record'
 require 'dotenv'
 require 'fileutils'
 require 'httparty'
+require 'uri'
 
 Dotenv.load('./.env.development')
 

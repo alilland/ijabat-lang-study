@@ -15,4 +15,5 @@ fill_webdata:
 enrich_data:
 	bundle exec rake populate:terms_scan_for_cults
 	bundle exec rake populate:terms_score
+	bundle exec rake populate:domain_stats
 
