@@ -1,0 +1,475 @@
+# Study 004
+
+[Return to Index](/README.md)
+
+## "Christianity" Keyword Google Trends
+
+Downloaded Data: [/data/google-trends/christianity](/data/google-trends/christianity)
+
+After manually downloading Google Trend data using the keyword ["Christianity"](https://trends.google.com/trends/explore?q=%2Fm%2F01lp8&date=now%201-d&geo=US&hl=en) between the dates of `2020-03-05`-`2025-03-05`, Google provided the "Top 25 Search Questions" it considers related to Christianity. The results are awful, and rarely related to Christianity at all, below is a curated list of questions that actually apply to Christianity.
+
+We took each search term and normalized it into English using OpenAI in order for it to be scrutinized. If search results in the target nation were in English rather than their native languages, we automatically categorize it as none, because content in English is easily found and requires no translation work.
+
+I am determining that its more advantageous to construct our own list of search terms, or to contact organizations which are better suited to provide this data. I dont expect Google to know when something is "Christian" or not.
+
+## Top "Christianity" Themed Searches by Language (According to Google)
+- Afghanistan
+  - (none)
+- Algeria
+  - Prayer
+  - Oran Prayer
+  - The Prayer
+  - Christ
+  - Synagogue
+  - Church
+  - The Church
+  - The Bible
+- Bangladesh
+  - (none)
+- Bhutan
+  - (none)
+- Brunei
+  - God
+  - Jesus
+  - Bible
+  - Pray
+  - The Glory
+- Burkina-Faso
+  - Pray
+  - Prayer
+  - Neuvaine (a type of prayer)
+  - Psalm
+  - The Bible
+  - Catholic
+  - Jesus
+  - Bible Verse
+  - The Prayer
+  - Pope
+  - Christ
+  - Rosary
+  - Saint Joseph
+  - Virgin Mary
+  - Karambiri
+  - Pastor Karambiri
+  - Saint Michael the Archangel
+  - Saint Anthony of Padua
+- Cameroon
+  - Prayer
+  - Verse
+  - Jesus
+  - God
+  - Saint
+  - Bible Verse
+  - Novena (catholic prayer)
+  - The Bible
+  - Psalm 91
+  - Rosary
+  - The Prayer
+  - Jesus Christ
+  - Pope
+  - Psalms
+  - Morning Prayer
+- Central Africa Republic
+  - Prayer
+  - The Bible
+  - Bible Verse
+  - Novena (catholic prayer)
+  - Psalm
+  - Christ
+  - Pope
+  - Biblical Teaching
+  - Christianity
+  - Top Christian
+  - Morning Prayer
+  - Psalm 91
+  - Biblical Commentary
+  - Online Bible
+  - Saint Rita
+- Chad
+  - Bible
+  - Prayer
+  - The Bible
+  - Jesus
+  - Bible Verse
+  - Catholic
+  - Pope
+  - Christ
+  - The Pope
+  - Prayer
+  - Novena (catholic prayer)
+  - Rosary
+  - The Elite Pope
+- China
+  - Bible
+  - Christianity
+  - Christ
+  - Catholicism
+  - Religion
+  - Faith
+  - Jesus
+  - Gospel
+  - Christians
+  - The Binding of Isaac
+  - Cult
+- Colombia
+  - Prayer
+  - Bible
+  - Psalm 91
+  - Psalm
+  - Holy Rosary
+  - Mary
+  - Prayers
+  - Blood of Christ
+  - Psalm 23
+  - The Blood of Christ
+  - Prayer of the Blood of Christ
+  - Prayer to the Blood of Christ
+  - Virgin Mary
+  - Faith
+  - Jesus Christ
+- Comoros
+  - (none)
+- Congo Brazzaville
+  - Verse
+  - Bible Verse
+  - Prayer
+  - The Bible
+  - God
+  - Psalm
+  - Jesus
+  - Christ
+  - The Prayer
+  - Pray
+  - Jesus Christ
+  - Pope
+  - The Faith
+  - Bible Verses
+  - Novena (catholic prayer)
+- Congo Kinshasa
+  - Bible
+  - Verse
+  - Biblical Verse
+  - Prayer
+  - Catholic
+  - The Bible
+  - Jesus
+  - The Prayer
+  - Psalm
+  - Pope
+  - Preaching
+  - Biblical Passage
+- Cuba
+  - Prayer
+  - Bible
+  - The Bible
+  - Church
+  - Psalm
+  - Prayer of Saint Luis Beltran
+  - Prayers
+  - Our Father
+  - Judas
+  - Mary
+  - Virgin Mary
+  - San Judas Tadeo
+  - Sermons
+  - Pastor
+  - Faith
+  - Christians
+- Egypt
+  - The Holy Bible
+  - Christ
+  - The Pope
+  - The Free Christian
+  - Christian Voice
+  - Jesus
+  - The Voice of the Christians
+  - The Voice of the Free Christians
+  - Jesus Christ
+  - Cyril
+  - Old Testament
+  - The Bible
+  - Saint George
+  - Sermons
+  - Saint Mark
+  - Pope Cyril
+  - Pope Shenouda
+  - Acts of the Apostles
+  - Apostle Paul
+- Eritrea
+  - ?????????
+- Ethiopia
+  - (none)
+- India
+  - Tamil Bible
+  - Telugu Bible
+  - Missionary
+- Iran
+  - Healing of the Sick
+- Iraq
+  - The Messiah
+  - Jesus
+  - Church
+  - The Bible
+  - The Pope
+  - Nuns
+  - Virgin Mary
+  - Ruth
+  - The Saint
+- Jordan
+  - Church
+  - The Messiah
+  - The Holy Bible
+  - Psalm
+  - Jesus
+  - The Bible
+  - Our Father
+  - Virgin Mary
+  - Saint Charbel
+- Kazakhstan
+  - Prayer
+  - Our Father
+  - Bible
+  - Jesus
+  - Our Father Prayer
+  - Epiphany
+  - Cathedral
+  - Icon
+  - Psalm 90
+  - Morning Prayers
+  - Temple
+  - Monastery
+  - Gospel
+  - Pope of Rome
+  - Evening Prayers
+  - Orthodoxy
+  - Palm Sunday
+  - Prayer to Nicholas the Wonder Worker
+- Korea
+  - Temple
+  - Gospel of John
+  - Bible
+  - Gospel of Matthew
+  - Genesis
+  - Romans
+  - Who Spreads the Gospel
+  - Gospel of Mark
+  - First Epistle to the Corinthians
+  - Holy Bible
+  - Exodus
+- Kyrgyzstan
+  - Prayer
+  - Bible
+  - Jesus
+  - Psalm
+  - Our Father
+  - Priest
+  - Cathedral
+  - Temple
+  - Icon
+  - Psalm 90
+  - Monastery
+  - Epiphany
+- Laos
+  - Christianity
+  - Faith
+  - God
+  - The Holy Scripture
+  - Catholicism
+  - Holy Scriptures
+- Libya
+  - Christ
+  - Prayer
+  - John
+  - The Covenant
+  - Lord Grant Us
+  - Nuns
+  - The Church
+  - Church
+  - The Bible
+  - Lucas
+- Maldives
+  - (none)
+- Mali
+  - Prayer
+  - The Bible
+  - Bible Verses
+  - The Prayer
+  - Saint
+  - Psalm
+  - Pope
+  - Catholic
+  - Pray
+  - Rosary
+  - The Pope
+  - Neuvaine (a type of prayer)
+  - Christianity
+- Mauritania
+  - Sodom
+  - Resurrection
+  - Sodom and Gomorrah
+  - The Covenant
+  - Our Lord, grant us
+  - Christ
+  - Missionary
+  - The Holy Bible
+- Mexico
+  - Prayer
+  - Virgin Mary
+  - Psalm
+  - Bible
+  - Church
+  - Rosary
+  - Jesus
+  - Prayers
+  - Psalm 91
+  - Mary
+  - Christ
+  - Holy Rosary
+  - The Virgin of Guadalupe
+  - Psalms
+  - Creed
+  - Advent
+- Morocco
+  - Prayer
+  - House of Prayer
+  - Bible
+  - The Messiah
+  - Mary
+  - Glory
+- Mozambique
+  - Bible
+  - God
+  - Jesus
+  - Psalms
+  - Holy Bible
+  - Pastor
+  - Preaching
+  - Psalm
+  - Jesus Christ
+  - Gospel
+  - Download Bible
+  - Apocalypse
+- Myanmar
+  - (none)
+- Nicaragua
+  - Bible
+  - Virgin Mary
+  - Prayer
+  - Psalm
+  - Jesus
+  - Church
+  - Rosary
+  - Psalm 91
+  - Psalms
+  - Sermons
+  - Virgin of Guadalupe
+  - Preach
+  - Faith
+  - Jesus Christ
+  - Biblical Text
+  - San Judas Tadeo
+  - Christians
+- Niger
+  - Cross
+  - Bible
+  - Prayer
+  - Miraculous
+  - Jesus
+  - The Prayer
+  - Bible Verses
+  - National Cross
+  - Catholic
+  - Pope
+  - Christianity
+- Nigeria
+  - (none)
+- Oman
+  - (none)
+- Pakistan
+  - (none)
+- Qatar
+  - (none)
+- Saudi-Arabia
+  - The Messiah
+- Somalia
+  - (none)
+- South-Sudan
+  - The Holy Bible
+- Sudan
+  - The Bible
+  - Mary
+  - The Messiah
+  - Jesus
+  - John
+  - The Covenant
+  - Bible Verses
+- Syria
+  - Christ
+  - The Holy Bible
+  - John
+  - Jesus
+  - The Gospel
+  - The Covenant
+  - Saint Charbel
+  - Lord Jesus Christ
+  - Easter
+  - The Pope
+  - The Old Testament
+  - Saint Elias (Elijah)
+  - Jesus Christ
+  - Virgin Mary
+- Tajikistan
+  - Prayer
+  - Bible
+- Turkey
+  - Repentance Prayer
+  - Church
+  - Prayer of Forgiveness
+  - Virgin Mary
+  - Jesus
+  - Christian
+  - Bible
+  - Christianity
+  - Repentance and Forgiveness
+- Turkmenistan
+  - Prayer
+  - Mary
+  - Jesus
+  - Saint Mary
+  - Saint
+  - Our Father
+  - Cardinal
+  - Our Father Prayer
+  - Constantinople
+  - Baptism
+- Tunisia
+  - Prayer
+  - Tunisian Prayer
+  - Christ
+- Uzbekistan
+  - Prayer
+  - Cardinal
+  - Bible
+  - Our Father
+  - Cathedral
+  - Vatican
+  - Icon
+  - Temple
+  - Our Father Prayer
+  - Monastery
+- Vietnam
+  - Priest
+  - Jesus
+  - Confession
+  - The Glory
+  - Catholic
+  - Pastor
+- Yemen
+  - My Lord
+  - Oh Lord
+  - Christ
+  - Baptism
+  - Resurrection
+  - The Bible
+  - Bible
+  - Christianity

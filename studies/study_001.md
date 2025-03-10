@@ -1,6 +1,6 @@
 # Study 001
 
-[Back to Index](/README.md)
+[Return to Index](/README.md)
 
 ## Presence of Cults Among Google Top 10 Search Results By Language
 
