@@ -1,5 +1,7 @@
 # Study 002
 
+[Return to Index](/README.md)
+
 ## Efforts That Could Easily Achieve Google Top 10 by Language
 
 Information obtained by looking at each search term by language and assigning it a competitiveness score.

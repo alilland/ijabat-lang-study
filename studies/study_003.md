@@ -1,5 +1,7 @@
 # Study 003
 
+[Return to Index](/README.md)
+
 ## Top Domains Across Languages
 
 Taking the results of the questions found in the following yaml file (`/data/categories.yaml`), and then searching by language, we store the results in our SQLite database. Looking at all the domains returned, we do an audit to find out the count of how many times a domain appeared in the top 10 results across languages.
