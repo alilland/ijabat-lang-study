@@ -17,7 +17,7 @@ namespace :populate do
       i += 1
       begin
         links = JSON.parse(term.links) rescue []
-        res = GPT.analyze_search_term(term.search_term, links, term.total_results)
+        res = OpenAI.analyze_search_term(term.search_term, links, term.total_results)
         term.score = res['score']
         term.difficulty = res['difficulty']
         term.save

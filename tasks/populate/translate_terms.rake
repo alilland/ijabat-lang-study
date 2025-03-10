@@ -16,7 +16,7 @@ namespace :populate do
     terms.each do |term|
       i += 1
       begin
-        res = GPT.translate(term.term, term.language)
+        res = OpenAI.translate(term.term, term.language)
         term.search_term = res
         term.save
         puts "[#{i}/#{total_count}] Translated #{term.term} into #{term.language}, result: #{res}"

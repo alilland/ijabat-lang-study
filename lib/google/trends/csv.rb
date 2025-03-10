@@ -69,6 +69,3 @@ module GoogleWrapper
     end
   end
 end
-
-# Example Usage
-GoogleWrapper::Trends.query("Bible")

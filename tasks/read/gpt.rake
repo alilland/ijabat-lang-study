@@ -7,7 +7,7 @@ namespace :read do
     lang = 'arabic'
     hl = 'ar'
     lr = 'lang_ar'
-    res = GPT.translate(phrase, lang, hl, lr)
+    res = OpenAI.translate(phrase, lang, hl, lr)
 
     p res
   end

@@ -6,7 +6,7 @@ namespace :read do
     domains = ["m.facebook.com", "deshsanchar.com", "www.hamropatro.com", "nepjol.info", "ghatanarabichar.com", "shilapatra.com", "nepalnamcha.com", "huggingface.co", "ne.wikipedia.org", "khabarhub.com"]
     total_results = 75
 
-    result = GPT.analyze_search_term(search_term, domains, total_results)
+    result = OpenAI.analyze_search_term(search_term, domains, total_results)
     puts result
   end
 end

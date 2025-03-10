@@ -5,6 +5,8 @@ require 'dotenv'
 require 'fileutils'
 require 'httparty'
 require 'uri'
+require 'csv'
+require 'json'
 
 Dotenv.load('./.env.development')
 
