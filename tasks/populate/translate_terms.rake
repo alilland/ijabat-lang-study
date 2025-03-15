@@ -6,9 +6,9 @@ namespace :populate do
     # ! iterate over each term in the database, re-translate the search_term value using chatGPT API
     # ! reset the total_result value
     # ! reset the links value
-    Term.update_all(total_results: 0, links: '[]', search_term: '')
+    Term.where(study_number: 0).update_all(total_results: 0, links: '[]', search_term: '')
 
-    terms = Term.all.to_a
+    terms = Term.where(study_number: 0).to_a
     i = 0
     total_count = terms.length
     sleep_time = 1 # Start with 1 second

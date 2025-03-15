@@ -12,6 +12,7 @@ Study results are published in `/studies`
 - [Study 002](/studies/study_002.md) - Efforts That Could Easily Achieve Google Top 10 by Language
 - [Study 003](/studies/study_003.md) - Top Domains Across Languages
 - [Study 004](/studies/study_004.md) - "Christianity" Keyword Google Trends
+- [Study 004=5](/studies/study_005.md) - "Stepping Stones" Topic Language Study
 
 ---
 
