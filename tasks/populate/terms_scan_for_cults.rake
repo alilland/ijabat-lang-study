@@ -2,10 +2,10 @@
 
 namespace :populate do
   task :terms_scan_for_cults do
-    total_count = Term.count
+    total_count = Term.where(study_number: 0).count
     i = 0
 
-    terms = Term.all
+    terms = Term.where(study_number: 0)
     terms.each do |term|
       i += 1
 
