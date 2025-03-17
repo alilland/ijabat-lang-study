@@ -1,16 +1,14 @@
 # frozen_string_literal: true
 
-require 'httparty'
-
 namespace :populate do
   task :google_terms do
-    total_terms = Term.count
+    total_terms = Term.where(study_number: 0).count
     i = 0
     failed_terms = {}
 
     languages = Language.all.to_a
     languages.each do |lang|
-      terms = Term.where(language: lang.lang)
+      terms = Term.where(study_number: 0, language: lang.lang)
       terms.each do |term|
         i += 1
         next if term.total_results > 0

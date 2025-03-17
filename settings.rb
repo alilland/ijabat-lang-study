@@ -4,9 +4,10 @@ require 'active_record'
 require 'dotenv'
 require 'fileutils'
 require 'httparty'
-require 'uri'
 require 'csv'
 require 'json'
+require 'uri'
+require 'net/http'
 
 Dotenv.load('./.env.development')
 

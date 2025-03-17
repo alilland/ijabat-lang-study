@@ -20,6 +20,7 @@ namespace :populate do
       data['terms'].each do |t|
         languages.to_a.each do |lang|
           record = Term.find_or_initialize_by(
+            study_number: 0,
             category_id: category.id,
             term: t['term'],
             language: lang.lang,

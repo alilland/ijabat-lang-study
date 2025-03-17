@@ -8,7 +8,7 @@ namespace :populate do
     # ! reset the links value
     # Term.update_all(score: 0, difficulty: '')
 
-    terms = Term.where(difficulty: '').to_a
+    terms = Term.where(difficulty: '', study_number: 0).to_a
     i = 0
     total_count = terms.length
     sleep_time = 1 # Start with 1 second

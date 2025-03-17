@@ -1,0 +1,502 @@
+[
+    {
+      "topic": "The Kingdom of God",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "How to become a Christian",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Becoming right with God",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Final Judgement",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Baptism",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Born Again",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Sin, Righteousness & Judgement",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Repentance",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Eternal Rewards",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Resurrection",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The New Covenant",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Creation & The Fall",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Salvation",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Evidence of Salvation",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Heaven & Hell",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Confession of Sin",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The One True God",
+      "categories": ["discipleship", "apologetics"]
+    },
+    {
+      "topic": "What happens after you die?",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Jesus Christ",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "God the Father",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Holy Spirit",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Baptism in Water",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Baptism in the Holy Spirit",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Baptism into Christ",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Baptism of Suffering",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Baptized for the dead?",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Growing in Faith",
+      "categories": ["discipleship", "faith-builders"]
+    },
+    {
+      "topic": "Laying on of Hands",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Fulfilled Prophecy",
+      "categories": ["discipleship", "apologetics"]
+    },
+    {
+      "topic": "Atonement for Sin",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Blood Sacrifice",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Trinity",
+      "categories": ["discipleship", "apologetics"]
+    },
+    {
+      "topic": "Sanctification & Holiness",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Knowing Your Calling",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Following God's Leading",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Prayer",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Worship",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "How to Study the Bible",
+      "categories": ["discipleship", "faith-builders"]
+    },
+    {
+      "topic": "The Fruit of the Spirit",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Gifts of the Spirit",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Manifestations of the Spirit",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Angels, Demons & Spiritual Beings",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Binding and Loosing",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Driving out Demons",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Keys of the Kingdom",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "God's Blessings",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Favor of God",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Growing in Wisdom",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Suffering for the Gospel",
+      "categories": ["discipleship", "world-missions"]
+    },
+    {
+      "topic": "Speaking in Tongues",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Faith for Miracles",
+      "categories": ["discipleship", "faith-builders"]
+    },
+    {
+      "topic": "Miracles",
+      "categories": ["discipleship", "faith-builders"]
+    },
+    {
+      "topic": "Divine Healing",
+      "categories": ["discipleship", "faith-builders"]
+    },
+    {
+      "topic": "Tithing, Sowing and Reaping",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "God's Covenants",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "God's Covenant with Noah",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "God's Covenant with Abraham",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "God's Covenant with Israel",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "God's Covenant with David",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The New Heavens and New Earth",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Millennial Reign of Christ",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Communion",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Inspiration of Scripture",
+      "categories": ["discipleship", "apologetics"]
+    },
+    {
+      "topic": "The Deity of the Lord Jesus Christ",
+      "categories": ["discipleship", "apologetics"]
+    },
+    {
+      "topic": "On Good Works",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Forgiveness",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Love of God",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Walking in Love",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "God's Grace",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Obedience of the Christian",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Evangelism",
+      "categories": ["discipleship", "world-missions"]
+    },
+    {
+      "topic": "The Great Commission",
+      "categories": ["discipleship", "world-missions"]
+    },
+    {
+      "topic": "Spiritual Warfare",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Stewardship & Generosity",
+      "categories": ["discipleship", "faith-builders"]
+    },
+    {
+      "topic": "Revival & Renewal",
+      "categories": ["discipleship", "world-missions", "faith-builders"]
+    },
+    {
+      "topic": "Eschatology & End Times",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "New Identity in Christ",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Gospel of the Kingdom",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Fasting",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Bible Prophecy",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Bible Figures",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "The Church & Israel",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Bible Stories",
+      "categories": ["faith-builders"]
+    },
+    {
+      "topic": "Bible History",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Difficult Passages",
+      "categories": ["discipleship", "apologetics"]
+    },
+    {
+      "topic": "Christian Persecution",
+      "categories": ["discipleship", "world-missions"]
+    },
+    {
+      "topic": "The Persecuted Church",
+      "categories": ["discipleship", "world-missions"]
+    },
+    {
+      "topic": "Faith in the Workplace",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Christian Community",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Women in Ministry",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Called to Ministry",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Dating, Marriage & Sexuality",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Old Testament",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "New Testament",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Christian Ethics",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Church Planting",
+      "categories": ["discipleship", "world-missions"]
+    },
+    {
+      "topic": "Church Structure",
+      "categories": ["discipleship", "world-missions"]
+    },
+    {
+      "topic": "Encouraging Testimonies",
+      "categories": ["world-missions", "faith-builders"]
+    },
+    {
+      "topic": "Testimonies of Transformation",
+      "categories": ["faith-builders"]
+    },
+    {
+      "topic": "Church History",
+      "categories": ["discipleship", "apologetics"]
+    },
+    {
+      "topic": "Bible Geography",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Principles of Christian Leadership",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Principles of Christian Government",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Jewish History",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Messianic Judaism",
+      "categories": ["discipleship"]
+    },
+    {
+      "topic": "Archeology",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Old Testament Archeology",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "New Testament Archeology",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Polemics",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Jewish Apologetics",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Islamic Apologetics",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Mormon Apologetics",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Buddhist Apologetics",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Hindu Apologetics",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "New Age Apologetics",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Atheist & Agnostic Apologetics",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Science and Faith",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Impact of Christianity on Society",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Defense of Miracles",
+      "categories": ["apologetics"]
+    },
+    {
+      "topic": "Cross Culture Missions",
+      "categories": ["world-missions"]
+    },
+    {
+      "topic": "Missionary Updates",
+      "categories": ["world-missions"]
+    },
+    {
+      "topic": "Missionary Training and Preparation",
+      "categories": ["world-missions"]
+    },
+    {
+      "topic": "History of Missions",
+      "categories": ["world-missions"]
+    },
+    {
+      "topic": "Children and Youth in Missions",
+      "categories": ["world-missions"]
+    },
+    {
+      "topic": "Women in Missions",
+      "categories": ["world-missions"]
+    }
+  ]
